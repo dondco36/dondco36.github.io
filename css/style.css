@@ -6,24 +6,37 @@
  * Made By MaterializeCSS.com
  */
 
+ body {
+     background-color: whitesmoke;
+ }
+
  nav ul a,
  nav .brand-logo {
-   color: #444;
+   color: white;
  }
  
+ h1 {
+    text-shadow: 4px 4px rgb(34, 33, 33)
+ }
+
  p {
    line-height: 2rem;
  }
  
  .sidenav-trigger {
-   color: #26a69a;
+   color: white;
  }
  
+ #fuzzy {
+     opacity: 0.75 !important;
+ }
+
  .parallax-container {
    min-height: 380px;
    line-height: 0;
    height: auto;
    color: rgba(255,255,255,.9);
+   text-shadow: 2px 2px rgb(34, 33, 33)
  }
    .parallax-container .section {
      width: 100%;
