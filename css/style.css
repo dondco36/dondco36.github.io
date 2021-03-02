@@ -6,43 +6,43 @@
  * Made By MaterializeCSS.com
  */
 
- body {
-     background-color: whitesmoke;
- }
+body {
+    background-color: whitesmoke;
+}
 
- nav ul a,
- nav .brand-logo {
+nav ul a, nav .brand-logo {
    color: white;
- }
+}
  
- h1 {
+h1 {
     text-shadow: 4px 4px rgb(34, 33, 33)
- }
+}
 
- p {
+p {
    line-height: 2rem;
- }
+}
  
- .sidenav-trigger {
+.sidenav-trigger {
    color: white;
- }
+}
  
- #fuzzy {
+#fuzzy {
      opacity: 0.75 !important;
- }
+}
 
- .parallax-container {
+.parallax-container {
    min-height: 380px;
    line-height: 0;
    height: auto;
    color: rgba(255,255,255,.9);
    text-shadow: 2px 2px rgb(34, 33, 33)
- }
-   .parallax-container .section {
+}
+
+.parallax-container .section {
      width: 100%;
-   }
+}
  
- @media only screen and (max-width : 992px) {
+@media only screen and (max-width : 992px) {
    .parallax-container .section {
      position: absolute;
      top: 40%;
@@ -50,22 +50,22 @@
    #index-banner .section {
      top: 10%;
    }
- }
+}
  
- @media only screen and (max-width : 600px) {
+@media only screen and (max-width : 600px) {
    #index-banner .section {
      top: 0;
    }
- }
+}
  
- .icon-block {
+.icon-block {
    padding: 0 15px;
- }
- .icon-block .material-icons {
+}
+
+.icon-block .material-icons {
    font-size: inherit;
- }
+}
  
- footer.page-footer {
+footer.page-footer {
    margin: 0;
- }
- 
+}
