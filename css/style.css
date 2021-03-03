@@ -32,13 +32,13 @@ ul .who {
 }
 
 .sidenav-trigger {
-   color: blue;
+   color: white;
 }
 
 .selfimg {
     align-items: center;
-    height: 200px;
-    width: 200px;
+    height: 300px;
+    width: 300px;
     padding: 20px;
 }
 
@@ -94,8 +94,8 @@ footer.page-footer {
 
     .selfimg {
         float: left;
-        height: 500px;
-        width: 475px;
+        height: 525px;
+        width: 500px;
         padding: 20px;
     }
 
@@ -108,9 +108,10 @@ footer.page-footer {
 @media only screen and (min-width : 1000px) {
     .selfimg {
         float: left;
-        height: 400px;
-        width: 400px;
-        padding: 20px;
+        height: 500px;
+        width: 450px;
+        margin-left: -60px;
+        margin-right: 20px;
     }
 
     .parallax-container {

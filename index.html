@@ -11,16 +11,26 @@
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
 </head>
 <body>
-  <nav class="white" role="navigation">
-    <div class="nav-wrapper">
-      <a href="#" class="brand-logo">Deezy Co.</a>
-      <ul id="nav-mobile" class="right hide-on-med-and-down">
-        <li><a href="#whoami">Who Am I</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#connect">Connect</a></li>
-      </ul>
-    </div>
-  </nav>
+
+  <div class="navbar-fixed">
+    <nav class="white" role="navigation">
+      <div class="nav-wrapper container">
+        <a id="logo-container" href="#" class="brand-logo">Deezy Co.</a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="#whoami">Who Am I</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#connect">Connect</a></li>
+        </ul>
+  
+        <ul id="nav-mobile" class="sidenav">
+          <li><a href="https://www.google.com">Who Am I</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#connect">Connect</a></li>
+        </ul>
+        <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+      </div>
+    </nav>
+  </div>
 
   <div id="index-banner" class="parallax-container">
     <div class="section no-pad-bot">
@@ -46,7 +56,7 @@
         <div class="col s12 center">
           <h5 id="whoami" class="center white-text">Who Am I</h5>
           <img class="selfimg" src="pictures/me.jpg" alt="picture">
-          <p class="grey-text text-lighten-4 who">Full-Stack Web Development Student at PDX Code Guild.</p>
+          <p class="grey-text text-lighten-4 who">Currently enrolled at PDX Code Guild in their Python-Based Full Stack Web Development program.</p>
           <ul class="grey-text text-lighten-4">
             <li>Python</li>
             <li>HTML/CSS</li>
